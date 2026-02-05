@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atención Pediátrica Integral S.A.S</title>
+    <meta name="description"
+        content="Clínica pediátrica en Sincelejo especializada en atención integral a niños,neumología y más.">
+    <meta name="keywords" content="salud infantil, clínica pediátrica, atención médica, Sincelejo, IPS niños">
+    <meta name="author" content="Atención Pediátrica Integral S.A.S">
+    <link rel="icon" href="images/Copilot_20250710_114506.png" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+</head>
+
+<body id="inicio" class="bg-blue-50 text-gray-800 font-sans">
+    <!-- HEADER -->
+    <header class="bg-[#24546a] text-white sticky top-0 z-50 shadow-md">
+        <div class="container mx-auto flex items-center justify-between p-4">
+            <a href="#inicio" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="images/logo api dorado bajito2.png" alt="Logo" class="h-12 w-auto" />
+                <span class="text-xl font-bold">Atención Pediátrica Integral S.A.S</span>
+            </a>
+
+            <!-- Botón menú hamburguesa -->
+            <button id="menu-toggle" class="md:hidden focus:outline-none">
+                <svg class="h-8 w-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+
+            <!-- Menú escritorio -->
+            <nav class="hidden md:flex space-x-6 font-medium">
+                <a href="#inicio" class="hover:text-blue-200">Inicio</a>
+                <a href="/docs/sobre_nosotros.html" class="hover:text-blue-200">Sobre Nosotros</a>
+                <a href="#servicios" class="hover:text-blue-200">Servicios</a>
+                <a href="#contacto" class="hover:text-blue-200">Contacto</a>
+            </nav>
+        </div>
+
+        <!-- Menú móvil -->
+        <div id="mobile-menu"
+            class="md:hidden flex flex-col items-center px-4 pb-4 pt-2 space-y-3 bg-[#24546a] text-white text-center">
+            <a href="#inicio" class="hover:text-blue-200">Inicio</a>
+            <a href="/sobre_nosotros.html" class="hover:text-blue-200">Sobre nosotros</a>
+            <a href="#servicios" class="hover:text-blue-200">Servicios</a>
+            <a href="#contacto" class="hover:text-blue-200">Contacto</a>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="relative h-[80vh] flex items-center justify-center bg-center bg-cover bg-no-repeat text-white"
+        style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/fondo.jpg'); background-position: top 10% center;">
+        <div class="text-center px-6 z-10">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Bienvenidos a Atención Pediátrica Integral</h1>
+            <p class="text-lg md:text-xl">Cuidamos la salud de tus pequeños con amor y profesionalismo</p>
+        </div>
+    </section>
+
+    </section>
+    <!-- BENEFICIOS -->
+    <section class="bg-white py-12 px-4">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+            <div class="bg-[#e6f0f3] p-6 rounded-lg shadow hover:scale-105 transition-transform duration-300">
+                <div class="flex justify-center mb-4">
+                    <svg class="w-12 h-12 text-[#24546a]" fill="none" stroke="currentColor" stroke-width="2"
+                        viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M8 10h.01M12 14h.01M16 10h.01M12 2a10 10 0 100 20 10 10 0 000-20z" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold text-[#24546a] mb-2">Atención Especializada</h3>
+                <p>Contamos con pediatras, endocrinólogos y otros especialistas altamente capacitados.</p>
+            </div>
+            <div class="bg-[#e6f0f3] p-6 rounded-lg shadow hover:scale-105 transition-transform duration-300">
+                <div class="flex justify-center mb-4">
+                    <svg class="w-12 h-12 text-[#24546a]" fill="none" stroke="currentColor" stroke-width="2"
+                        viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold text-[#24546a] mb-2">Ambiente Seguro y Amigable</h3>
+                <p>Espacios diseñados para el confort de los niños y tranquilidad de los padres.</p>
+            </div>
+            <div class="bg-[#e6f0f3] p-6 rounded-lg shadow hover:scale-105 transition-transform duration-300">
+                <div class="flex justify-center mb-4">
+                    <svg class="w-12 h-12 text-[#24546a]" fill="none" stroke="currentColor" stroke-width="2"
+                        viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M13 16h-1v-4h-1m0-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold text-[#24546a] mb-2">Prevención y Educación</h3>
+                <p>Promovemos hábitos saludables y prevención desde la infancia.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Carrusel de Aliados -->
+    <section class="bg-white py-16">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-[#24546a] mb-8">Nuestros Aliados</h2>
+            <div class="overflow-hidden">
+                <div class="flex animate-carousel w-[200%]">
+
+                    <!-- Grupo original -->
+                    <div class="flex gap-8 w-full shrink-0 flex-nowrap overflow-x-auto md:overflow-visible">
+                        <img src="images/logos aliados/allianz-logo.png"
+                            class="h-16 w-auto md:max-w-[220px] max-w-[80px] shrink-0 object-contain" />
+                        <img src="images/logos aliados/channels4_profile.jpg"
+                            class="h-16 w-auto md:max-w-[220px] max-w-[80px] shrink-0 object-contain" />
+                        <img src="images/logos aliados/epsfamiliar.png"
+                            class="h-16 w-auto md:max-w-[220px] max-w-[80px] shrink-0 object-contain" />
+                        <img src="images/logos aliados/images.jpg"
+                            class="h-16 w-auto md:max-w-[220px] max-w-[80px] shrink-0 object-contain" />
+                        <img src="images/logos aliados/images.png"
+                            class="h-16 w-auto md:max-w-[220px] max-w-[80px] shrink-0 object-contain" />
+                        <img src="images/logos aliados/layout_set_logo.png"
+                            class="h-16 w-auto md:max-w-[220px] max-w-[80px] shrink-0 object-contain" />
+                        <img src="images/logos aliados/logo-axa-colpatria-seguros.png"
+                            class="h-16 w-auto md:max-w-[220px] max-w-[80px] shrink-0 object-contain" />
+                        <img src="images/logos aliados/Logo-pagina-Web_Mesa-de-trabajo-1-copia-5_Mesa-de-trabajo-1-copia-5.jpg"
+                            class="h-16 w-auto md:max-w-[220px] max-w-[80px] shrink-0 object-contain" />
+                        <img src="images/logos aliados/logo-st_62fd033881f61.png"
+                            class="h-16 w-auto md:max-w-[220px] max-w-[80px] shrink-0 object-contain" />
+                        <img src="images/logos aliados/ecopetrol.png"
+                            class="h-16 w-auto md:max-w-[220px] max-w-[80px] shrink-0 object-contain" />
+                    </div>
+
+                    <!-- Duplicado -->
+                    <div class="flex gap-8 w-full shrink-0 flex-nowrap overflow-x-auto md:overflow-visible">
+                        <img src="images/logos aliados/allianz-logo.png"
+                            class="h-16 w-auto md:max-w-[220px] max-w-[80px] shrink-0 object-contain" />
+                        <img src="images/logos aliados/channels4_profile.jpg"
+                            class="h-16 w-auto md:max-w-[220px] max-w-[80px] shrink-0 object-contain" />
+                        <img src="images/logos aliados/epsfamiliar.png"
+                            class="h-16 w-auto md:max-w-[220px] max-w-[80px] shrink-0 object-contain" />
+                        <img src="images/logos aliados/images.jpg"
+                            class="h-16 w-auto md:max-w-[220px] max-w-[80px] shrink-0 object-contain" />
+                        <img src="images/logos aliados/images.png"
+                            class="h-16 w-auto md:max-w-[220px] max-w-[80px] shrink-0 object-contain" />
+                        <img src="images/logos aliados/layout_set_logo.png"
+                            class="h-16 w-auto md:max-w-[220px] max-w-[80px] shrink-0 object-contain" />
+                        <img src="images/logos aliados/logo-axa-colpatria-seguros.png"
+                            class="h-16 w-auto md:max-w-[220px] max-w-[80px] shrink-0 object-contain" />
+                        <img src="images/logos aliados/Logo-pagina-Web_Mesa-de-trabajo-1-copia-5_Mesa-de-trabajo-1-copia-5.jpg"
+                            class="h-16 w-auto md:max-w-[220px] max-w-[80px] shrink-0 object-contain" />
+                        <img src="images/logos aliados/logo-st_62fd033881f61.png"
+                            class="h-16 w-auto md:max-w-[220px] max-w-[80px] shrink-0 object-contain" />
+                        <img src="images/logos aliados/ecopetrol.png"
+                            class="h-16 w-auto md:max-w-[220px] max-w-[80px] shrink-0 object-contain" />
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Sección Nuestro Equipo -->
+    <section class="py-16 bg-[#f9fbfc]">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-[#24546a] mb-12">Conoce a Nuestro Equipo</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow text-center">
+                    <img src="images/liliana.jpg" alt="Dr. Juan" class="mx-auto mb-4 rounded-full">
+                    <h3 class="text-xl font-semibold text-[#24546a]">Dra. Liliana Ozuna</h3>
+                    <p class="text-gray-600">Endocrinología Pediátrica</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow text-center">
+                    <img src="images/liliana.jpg" alt="Dra. María" class="mx-auto mb-4 rounded-full">
+                    <h3 class="text-xl font-semibold text-[#24546a]">Dra. María Marsiglia</h3>
+                    <p class="text-gray-600">Neumología Pediátrica</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow text-center">
+                    <img src="images/liliana.jpg" alt="Dr. Carlos" class="mx-auto mb-4 rounded-full">
+                    <h3 class="text-xl font-semibold text-[#24546a]">Dr. Carlos Pérez</h3>
+                    <p class="text-gray-600">Cardiología Pediátrica</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow text-center">
+                    <img src="images/liliana.jpg" alt="Dr. Carlos" class="mx-auto mb-4 rounded-full">
+                    <h3 class="text-xl font-semibold text-[#24546a]">Dr. Carlos Pérez</h3>
+                    <p class="text-gray-600">Cardiología Pediátrica</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow text-center">
+                    <img src="images/liliana.jpg" alt="Dr. Carlos" class="mx-auto mb-4 rounded-full">
+                    <h3 class="text-xl font-semibold text-[#24546a]">Dr. Carlos Pérez</h3>
+                    <p class="text-gray-600">Cardiología Pediátrica</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contadores -->
+    <section class="bg-white py-16">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-4xl font-bold text-[#24546a]">+10</h3>
+                    <p class="text-gray-600">Años de experiencia</p>
+                </div>
+                <div>
+                    <h3 class="text-4xl font-bold text-[#24546a]">+5000</h3>
+                    <p class="text-gray-600">Pacientes atendidos</p>
+                </div>
+                <div>
+                    <h3 class="text-4xl font-bold text-[#24546a]">20+</h3>
+                    <p class="text-gray-600">Especialistas</p>
+                </div>
+                <div>
+                    <h3 class="text-4xl font-bold text-[#24546a]">98%</h3>
+                    <p class="text-gray-600">Satisfacción</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Galería -->
+    <section class="py-16 bg-[#f1f7f9]">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-[#24546a] mb-12">Nuestras Instalaciones</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                <img src="images/recepcion.jpeg" alt="Recepción" class="rounded-lg shadow">
+                <img src="images/recepcion.jpeg" alt="Consultorio" class="rounded-lg shadow">
+                <img src="images/recepcion.jpeg" alt="Sala de espera" class="rounded-lg shadow">
+                <img src="images/recepcion.jpeg" alt="Laboratorio" class="rounded-lg shadow">
+                <img src="images/recepcion.jpeg" alt="Área de Rehabilitación" class="rounded-lg shadow">
+                <img src="images/recepcion.jpeg" alt="Odontología" class="rounded-lg shadow">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Servicios con Acordeón e Imágenes -->
+    <section class="py-16 bg-white" id="servicios">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-[#24546a] mb-12">Nuestros Servicios</h2>
+
+            <!-- Acordeón de Categorías -->
+            <div class="space-y-6">
+
+                <!-- Categoría: Especialidades médicas -->
+                <details class="group border border-gray-200 rounded-lg">
+                    <summary
+                        class="cursor-pointer flex justify-between items-center p-4 bg-[#24546a] text-white rounded-lg">
+                        <span class="text-lg font-semibold">Consulta Externa</span>
+                        <svg class="w-5 h-5 transform group-open:rotate-180 transition-transform" fill="none"
+                            stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </summary>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-4">
+                        <div class="bg-[#f1f7f9] p-4 rounded-lg shadow hover:shadow-lg transition">
+                            <img src="images/Diseño-sin-título-92.jpg" alt="Dermatología" class="w-full rounded mb-3">
+                            <h3 class="text-[#24546a] font-semibold">Dermatología</h3>
+                            <p class="text-sm text-gray-700">Diagnóstico y tratamiento de enfermedades de la piel en
+                                niños y adultos.</p>
+                            <a href="https://wa.me/573002916759?text=Hola%2C%20quiero%20agendar%20una%20cita"
+                                target="_blank"
+                                class="mt-3 inline-block bg-[#24546a] text-white px-4 py-2 rounded hover:bg-[#1c3f52] transition">Agendar
+                                Cita</a>
+                        </div>
+                        <!-- Servicios médicos -->
+                        <div class="bg-[#f1f7f9] p-4 rounded-lg shadow hover:shadow-lg transition">
+                            <img src="images/Diseño-sin-título-92.jpg" alt="Pediatría" class="w-full rounded mb-3">
+                            <h3 class="text-[#24546a] font-semibold">Pediatría</h3>
+                            <p class="text-sm text-gray-700">Atención médica integral a niños desde su nacimiento hasta
+                                la adolescencia.</p>
+                            <a href="https://wa.me/573002916759?text=Hola%2C%20quiero%20agendar%20una%20cita"
+                                target="_blank"
+                                class="mt-3 inline-block bg-[#24546a] text-white px-4 py-2 rounded hover:bg-[#1c3f52] transition">Agendar
+                                Cita</a>
+                        </div>
+                        <div class="bg-[#f1f7f9] p-4 rounded-lg shadow hover:shadow-lg transition">
+                            <img src="images/Diseño-sin-título-92.jpg" class="w-full rounded mb-3">
+                            <h3 class="text-[#24546a] font-semibold">Cirugía Pediátrica</h3>
+                            <p class="text-sm text-gray-700">Diagnóstico y tratamiento quirúrgico de enfermedades
+                                infantiles.</p>
+                            <a href="https://wa.me/573002916759?text=Hola%2C%20quiero%20agendar%20una%20cita"
+                                target="_blank"
+                                class="mt-3 inline-block bg-[#24546a] text-white px-4 py-2 rounded hover:bg-[#1c3f52] transition">Agendar
+                                Cita</a>
+                        </div>
+                        <div class="bg-[#f1f7f9] p-4 rounded-lg shadow hover:shadow-lg transition">
+                            <img src="images/Diseño-sin-título-92.jpg" alt="Endocrinología Pediátrica"
+                                class="w-full rounded mb-3">
+                            <h3 class="text-[#24546a] font-semibold">Endocrinología Pediátrica</h3>
+                            <p class="text-sm text-gray-700">Tratamiento de trastornos hormonales como diabetes,
+                                crecimiento y pubertad precoz.</p>
+                            <a href="https://wa.me/573002916759?text=Hola%2C%20quiero%20agendar%20una%20cita"
+                                target="_blank"
+                                class="mt-3 inline-block bg-[#24546a] text-white px-4 py-2 rounded hover:bg-[#1c3f52] transition">Agendar
+                                Cita</a>
+                        </div>
+                        <div class="bg-[#f1f7f9] p-4 rounded-lg shadow hover:shadow-lg transition">
+                            <img src="images/Diseño-sin-título-92.jpg"
+                                alt="Neurología Pediátrica" class="w-full rounded mb-3">
+                            <h3 class="text-[#24546a] font-semibold">Neurología Pediátrica</h3>
+                            <p class="text-sm text-gray-700">Atención especializada para trastornos neurológicos
+                                infantiles como epilepsia, TDAH y retrasos del desarrollo.</p>
+                            <a href="https://wa.me/573002916759?text=Hola%2C%20quiero%20agendar%20una%20cita"
+                                target="_blank"
+                                class="mt-3 inline-block bg-[#24546a] text-white px-4 py-2 rounded hover:bg-[#1c3f52] transition">Agendar
+                                Cita</a>
+                        </div>
+                        <div class="bg-[#f1f7f9] p-4 rounded-lg shadow hover:shadow-lg transition">
+                            <img src="images/Diseño-sin-título-92.jpg"
+                                alt="Infectología Pediátrica" class="w-full rounded mb-3">
+                            <h3 class="text-[#24546a] font-semibold">Infectología Pediátrica</h3>
+                            <p class="text-sm text-gray-700">Diagnóstico y tratamiento de infecciones graves y
+                                recurrentes en niños.</p>
+                            <a href="https://wa.me/573002916759?text=Hola%2C%20quiero%20agendar%20una%20cita"
+                                target="_blank"
+                                class="mt-3 inline-block bg-[#24546a] text-white px-4 py-2 rounded hover:bg-[#1c3f52] transition">Agendar
+                                Cita</a>
+                        </div>
+                        <div class="bg-[#f1f7f9] p-4 rounded-lg shadow hover:shadow-lg transition">
+                            <img src="images/Diseño-sin-título-92.jpg"
+                                alt="Gastroenterología Pediátrica" class="w-full rounded mb-3">
+                            <h3 class="text-[#24546a] font-semibold">Gastroenterología Pediátrica</h3>
+                            <p class="text-sm text-gray-700">Tratamiento de problemas digestivos, hepáticos y
+                                nutricionales en la infancia.</p>
+                            <a href="https://wa.me/573002916759?text=Hola%2C%20quiero%20agendar%20una%20cita"
+                                target="_blank"
+                                class="mt-3 inline-block bg-[#24546a] text-white px-4 py-2 rounded hover:bg-[#1c3f52] transition">Agendar
+                                Cita</a>
+                        </div>
+                        <div class="bg-[#f1f7f9] p-4 rounded-lg shadow hover:shadow-lg transition">
+                            <img src="images/Diseño-sin-título-92.jpg"
+                                alt="Neumología Pediátrica" class="w-full rounded mb-3">
+                            <h3 class="text-[#24546a] font-semibold">Neumología Pediátrica</h3>
+                            <p class="text-sm text-gray-700">Especialistas en enfermedades respiratorias como asma,
+                                bronquitis y neumonía infantil.</p>
+                            <a href="https://wa.me/573002916759?text=Hola%2C%20quiero%20agendar%20una%20cita"
+                                target="_blank"
+                                class="mt-3 inline-block bg-[#24546a] text-white px-4 py-2 rounded hover:bg-[#1c3f52] transition">Agendar
+                                Cita</a>
+                        </div>
+                        <div class="bg-[#f1f7f9] p-4 rounded-lg shadow hover:shadow-lg transition">
+                            <img src="images/Diseño-sin-título-92.jpg" alt="Alergología"
+                                class="w-full rounded mb-3">
+                            <h3 class="text-[#24546a] font-semibold">Alergología</h3>
+                            <p class="text-sm text-gray-700">Diagnóstico y manejo de alergias respiratorias,
+                                alimentarias y cutáneas en niños.</p>
+                            <a href="https://wa.me/573002916759?text=Hola%2C%20quiero%20agendar%20una%20cita"
+                                target="_blank"
+                                class="mt-3 inline-block bg-[#24546a] text-white px-4 py-2 rounded hover:bg-[#1c3f52] transition">Agendar
+                                Cita</a>
+                        </div>
+                        <div class="bg-[#f1f7f9] p-4 rounded-lg shadow hover:shadow-lg transition">
+                            <img src="images/Diseño-sin-título-92.jpg"
+                                alt="Pruebas de Alergia" class="w-full rounded mb-3">
+                            <h3 class="text-[#24546a] font-semibold">Pruebas de Alergia</h3>
+                            <p class="text-sm text-gray-700">Evaluaciones para identificar sustancias que provocan
+                                reacciones alérgicas.</p>
+                            <a href="https://wa.me/573002916759?text=Hola%2C%20quiero%20agendar%20una%20cita"
+                                target="_blank"
+                                class="mt-3 inline-block bg-[#24546a] text-white px-4 py-2 rounded hover:bg-[#1c3f52] transition">Agendar
+                                Cita</a>
+                        </div>
+                        <div class="bg-[#f1f7f9] p-4 rounded-lg shadow hover:shadow-lg transition">
+                            <img src="images/Diseño-sin-título-92.jpg" alt="Inmunoterapia"
+                                class="w-full rounded mb-3">
+                            <h3 class="text-[#24546a] font-semibold">Inmunoterapia</h3>
+                            <p class="text-sm text-gray-700">Tratamiento que reduce la sensibilidad a alérgenos a través
+                                de vacunas o gotas sublinguales.</p>
+                            <a href="https://wa.me/573002916759?text=Hola%2C%20quiero%20agendar%20una%20cita"
+                                target="_blank"
+                                class="mt-3 inline-block bg-[#24546a] text-white px-4 py-2 rounded hover:bg-[#1c3f52] transition">Agendar
+                                Cita</a>
+                        </div>
+                        <div class="bg-[#f1f7f9] p-4 rounded-lg shadow hover:shadow-lg transition">
+                            <img src="images/Diseño-sin-título-92.jpg"
+                                alt="Neumología Adulto" class="w-full rounded mb-3">
+                            <h3 class="text-[#24546a] font-semibold">Neumología Adulto</h3>
+                            <p class="text-sm text-gray-700">Diagnóstico y tratamiento de enfermedades respiratorias en
+                                adultos como EPOC y asma.</p>
+                            <a href="https://wa.me/573002916759?text=Hola%2C%20quiero%20agendar%20una%20cita"
+                                target="_blank"
+                                class="mt-3 inline-block bg-[#24546a] text-white px-4 py-2 rounded hover:bg-[#1c3f52] transition">Agendar
+                                Cita</a>
+                        </div>
+                    </div>
+                </details>
+
+                <!-- Categoría: Diagnósticos y Terapias -->
+                <details class="group border border-gray-200 rounded-lg">
+                    <summary
+                        class="cursor-pointer flex justify-between items-center p-4 bg-[#24546a] text-white rounded-lg">
+                        <span class="text-lg font-semibold">Diagnósticos y Terapias</span>
+                        <svg class="w-5 h-5 transform group-open:rotate-180 transition-transform" fill="none"
+                            stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </summary>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-4">
+                        <div class="bg-[#f1f7f9] p-4 rounded-lg shadow hover:shadow-lg transition">
+                            <img src="images/Diseño-sin-título-92.jpg"
+                                alt="Difusión Monóxido de Carbono" class="w-full rounded mb-3">
+                            <h3 class="text-[#24546a] font-semibold">Capacidad de difusión monóxido de carbono</h3>
+                            <p class="text-sm text-gray-700">Mide la capacidad de los pulmones para transferir gases,
+                                útil en diagnóstico de enfermedades pulmonares.</p>
+                            <a href="https://wa.me/573002916759?text=Hola,%20quiero%20agendar%20una%20cita"
+                                target="_blank"
+                                class="mt-3 inline-block bg-[#24546a] text-white px-4 py-2 rounded hover:bg-[#1c3f52] transition">Agendar
+                                Cita</a>
+                        </div>
+                        <div class="bg-[#f1f7f9] p-4 rounded-lg shadow hover:shadow-lg transition">
+                            <img src="images/Diseño-sin-título-92.jpg"
+                                alt="Volúmenes pulmonares" class="w-full rounded mb-3">
+                            <h3 class="text-[#24546a] font-semibold">Volúmenes pulmonares por pletismografía</h3>
+                            <p class="text-sm text-gray-700">Evalúa la cantidad de aire que los pulmones pueden
+                                contener, usado en enfermedades como EPOC y fibrosis pulmonar.</p>
+                            <a href="https://wa.me/573002916759?text=Hola,%20quiero%20agendar%20una%20cita"
+                                target="_blank"
+                                class="mt-3 inline-block bg-[#24546a] text-white px-4 py-2 rounded hover:bg-[#1c3f52] transition">Agendar
+                                Cita</a>
+                        </div>
+                        <div class="bg-[#f1f7f9] p-4 rounded-lg shadow hover:shadow-lg transition">
+                            <img src="images/Diseño-sin-título-92.jpg" alt="Caminata 6 minutos"
+                                class="w-full rounded mb-3">
+                            <h3 class="text-[#24546a] font-semibold">Prueba de caminata de 6 minutos</h3>
+                            <p class="text-sm text-gray-700">Evalúa la resistencia física y capacidad pulmonar mediante
+                                la distancia recorrida caminando en seis minutos.</p>
+                            <a href="https://wa.me/573002916759?text=Hola,%20quiero%20agendar%20una%20cita"
+                                target="_blank"
+                                class="mt-3 inline-block bg-[#24546a] text-white px-4 py-2 rounded hover:bg-[#1c3f52] transition">Agendar
+                                Cita</a>
+                        </div>
+                        <div class="bg-[#f1f7f9] p-4 rounded-lg shadow hover:shadow-lg transition">
+                            <img src="images/Diseño-sin-título-92.jpg"
+                                alt="Prueba de broncomotricidad" class="w-full rounded mb-3">
+                            <h3 class="text-[#24546a] font-semibold">Prueba de broncomotricidad</h3>
+                            <p class="text-sm text-gray-700">Ayuda a detectar hiperreactividad bronquial, clave para el
+                                diagnóstico de asma.</p>
+                            <a href="https://wa.me/573002916759?text=Hola,%20quiero%20agendar%20una%20cita"
+                                target="_blank"
+                                class="mt-3 inline-block bg-[#24546a] text-white px-4 py-2 rounded hover:bg-[#1c3f52] transition">Agendar
+                                Cita</a>
+                        </div>
+                        <div class="bg-[#f1f7f9] p-4 rounded-lg shadow hover:shadow-lg transition">
+                            <img src="images/Diseño-sin-título-92.jpg"
+                                alt="Doppler vasculares" class="w-full rounded mb-3">
+                            <h3 class="text-[#24546a] font-semibold">Doppler vasculares</h3>
+                            <p class="text-sm text-gray-700">Examen no invasivo que permite evaluar el flujo sanguíneo
+                                en arterias y venas.</p>
+                            <a href="https://wa.me/573002916759?text=Hola,%20quiero%20agendar%20una%20cita"
+                                target="_blank"
+                                class="mt-3 inline-block bg-[#24546a] text-white px-4 py-2 rounded hover:bg-[#1c3f52] transition">Agendar
+                                Cita</a>
+                        </div>
+                        <div class="bg-[#f1f7f9] p-4 rounded-lg shadow hover:shadow-lg transition">
+                            <img src="images/Diseño-sin-título-92.jpg"
+                                alt="Pletismografías" class="w-full rounded mb-3">
+                            <h3 class="text-[#24546a] font-semibold">Pletismografías</h3>
+                            <p class="text-sm text-gray-700">Medición precisa del volumen total de aire en los pulmones,
+                                útil en el estudio de patologías pulmonares crónicas.</p>
+                            <a href="https://wa.me/573002916759?text=Hola,%20quiero%20agendar%20una%20cita"
+                                target="_blank"
+                                class="mt-3 inline-block bg-[#24546a] text-white px-4 py-2 rounded hover:bg-[#1c3f52] transition">Agendar
+                                Cita</a>
+                        </div>
+                        <div class="bg-[#f1f7f9] p-4 rounded-lg shadow hover:shadow-lg transition">
+                            <img src="images/Diseño-sin-título-92.jpg"
+                                alt="Presiones segmentarias" class="w-full rounded mb-3">
+                            <h3 class="text-[#24546a] font-semibold">Medición de presiones segmentarias</h3>
+                            <p class="text-sm text-gray-700">Evalúa el flujo sanguíneo en diferentes segmentos del
+                                cuerpo para detectar obstrucciones arteriales.</p>
+                            <a href="https://wa.me/573002916759?text=Hola,%20quiero%20agendar%20una%20cita"
+                                target="_blank"
+                                class="mt-3 inline-block bg-[#24546a] text-white px-4 py-2 rounded hover:bg-[#1c3f52] transition">Agendar
+                                Cita</a>
+                        </div>
+                        <div class="bg-[#f1f7f9] p-4 rounded-lg shadow hover:shadow-lg transition">
+                            <img src="images/Diseño-sin-título-92.jpg"
+                                alt="Oclusiones vasculares" class="w-full rounded mb-3">
+                            <h3 class="text-[#24546a] font-semibold">Oclusiones vasculares</h3>
+                            <p class="text-sm text-gray-700">Diagnóstico de bloqueos en arterias o venas que afectan el
+                                flujo normal de la sangre.</p>
+                            <a href="https://wa.me/573002916759?text=Hola,%20quiero%20agendar%20una%20cita"
+                                target="_blank"
+                                class="mt-3 inline-block bg-[#24546a] text-white px-4 py-2 rounded hover:bg-[#1c3f52] transition">Agendar
+                                Cita</a>
+                        </div>
+                        <div class="bg-[#f1f7f9] p-4 rounded-lg shadow hover:shadow-lg transition">
+                            <img src="images/Diseño-sin-título-92.jpg" alt="Escleroterapias"
+                                class="w-full rounded mb-3">
+                            <h3 class="text-[#24546a] font-semibold">Escleroterapias</h3>
+                            <p class="text-sm text-gray-700">Tratamiento para eliminar venas varicosas mediante la
+                                aplicación de una sustancia esclerosante.</p>
+                            <a href="https://wa.me/573002916759?text=Hola,%20quiero%20agendar%20una%20cita"
+                                target="_blank"
+                                class="mt-3 inline-block bg-[#24546a] text-white px-4 py-2 rounded hover:bg-[#1c3f52] transition">Agendar
+                                Cita</a>
+                        </div>
+                        <div class="bg-[#f1f7f9] p-4 rounded-lg shadow hover:shadow-lg transition">
+                            <img src="images/Diseño-sin-título-92.jpg" alt="MAPA 24 horas"
+                                class="w-full rounded mb-3">
+                            <h3 class="text-[#24546a] font-semibold">Monitoreo de presión arterial 24 horas</h3>
+                            <p class="text-sm text-gray-700">Permite medir la presión arterial continuamente durante el
+                                día y la noche para detectar hipertensión oculta.</p>
+                            <a href="https://wa.me/573002916759?text=Hola,%20quiero%20agendar%20una%20cita"
+                                target="_blank"
+                                class="mt-3 inline-block bg-[#24546a] text-white px-4 py-2 rounded hover:bg-[#1c3f52] transition">Agendar
+                                Cita</a>
+                        </div>
+                        <div class="bg-[#f1f7f9] p-4 rounded-lg shadow hover:shadow-lg transition">
+                            <img src="images/Diseño-sin-título-92.jpg"
+                                alt="Rehabilitación vascular" class="w-full rounded mb-3">
+                            <h3 class="text-[#24546a] font-semibold">Rehabilitación vascular</h3>
+                            <p class="text-sm text-gray-700">Programa diseñado para mejorar la circulación y la calidad
+                                de vida en pacientes con enfermedades vasculares.</p>
+                            <a href="https://wa.me/573002916759?text=Hola,%20quiero%20agendar%20una%20cita"
+                                target="_blank"
+                                class="mt-3 inline-block bg-[#24546a] text-white px-4 py-2 rounded hover:bg-[#1c3f52] transition">Agendar
+                                Cita</a>
+                        </div>
+                        <div class="bg-[#f1f7f9] p-4 rounded-lg shadow hover:shadow-lg transition">
+                            <img src="images/Diseño-sin-título-92.jpg"
+                                alt="Terapias piso pélvico" class="w-full rounded mb-3">
+                            <h3 class="text-[#24546a] font-semibold">Terapias biofeedback de piso pélvico</h3>
+                            <p class="text-sm text-gray-700">Técnica especializada para fortalecer el control del piso
+                                pélvico y mejorar problemas urinarios o intestinales.</p>
+                            <a href="https://wa.me/573002916759?text=Hola%2C%20quiero%20agendar%20una%20cita"
+                                target="_blank"
+                                class="mt-3 inline-block bg-[#24546a] text-white px-4 py-2 rounded hover:bg-[#1c3f52] transition">Agendar
+                                Cita</a>
+                        </div>
+                        <div class="bg-[#f1f7f9] p-4 rounded-lg shadow hover:shadow-lg transition">
+                            <img src="images/Diseño-sin-título-92.jpg" alt="Espirometría"
+                                class="w-full rounded mb-3">
+                            <h3 class="text-[#24546a] font-semibold">Espirometría pre y post B2</h3>
+                            <p class="text-sm text-gray-700">Evaluación de la función pulmonar para diagnosticar
+                                enfermedades respiratorias como asma o EPOC.</p>
+                            <a href="https://wa.me/573002916759?text=Hola%2C%20quiero%20agendar%20una%20cita"
+                                target="_blank"
+                                class="mt-3 inline-block bg-[#24546a] text-white px-4 py-2 rounded hover:bg-[#1c3f52] transition">Agendar
+                                Cita</a>
+                        </div>
+                        <div class="bg-[#f1f7f9] p-4 rounded-lg shadow hover:shadow-lg transition">
+                            <img src="images/Diseño-sin-título-92.jpg"
+                                alt="Oscilometría de Impulso" class="w-full rounded mb-3">
+                            <h3 class="text-[#24546a] font-semibold">Oscilometría de Impulso</h3>
+                            <p class="text-sm text-gray-700">Prueba no invasiva para medir la resistencia de las vías
+                                respiratorias, ideal para niños pequeños.</p>
+                            <a href="https://wa.me/573002916759?text=Hola%2C%20quiero%20agendar%20una%20cita"
+                                target="_blank"
+                                class="mt-3 inline-block bg-[#24546a] text-white px-4 py-2 rounded hover:bg-[#1c3f52] transition">Agendar
+                                Cita</a>
+                        </div>
+                        <div class="bg-[#f1f7f9] p-4 rounded-lg shadow hover:shadow-lg transition">
+                            <img src="images/Diseño-sin-título-92.jpg" alt="Óxido nítrico"
+                                class="w-full rounded mb-3">
+                            <h3 class="text-[#24546a] font-semibold">Fracción exhalada óxido nítrico</h3>
+                            <p class="text-sm text-gray-700">Ayuda a detectar inflamación en las vías respiratorias,
+                                útil en el manejo del asma.</p>
+                            <a href="https://wa.me/573002916759?text=Hola%2C%20quiero%20agendar%20una%20cita"
+                                target="_blank"
+                                class="mt-3 inline-block bg-[#24546a] text-white px-4 py-2 rounded hover:bg-[#1c3f52] transition">Agendar
+                                Cita</a>
+                        </div>
+                    </div>
+                </details>
+
+                <!-- Categoría: Odontología -->
+                <details class="group border border-gray-200 rounded-lg">
+                    <summary
+                        class="cursor-pointer flex justify-between items-center p-4 bg-[#24546a] text-white rounded-lg">
+                        <span class="text-lg font-semibold">Odontología</span>
+                        <svg class="w-5 h-5 transform group-open:rotate-180 transition-transform" fill="none"
+                            stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </summary>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-4">
+                        <div class="bg-[#f1f7f9] p-4 rounded-lg shadow hover:shadow-lg transition">
+                            <img src="images/Diseño-sin-título-92.jpg"
+                                alt="Odontología Pediátrica" class="w-full rounded mb-3">
+                            <h3 class="text-[#24546a] font-semibold">Odontología Pediátrica</h3>
+                            <p class="text-sm text-gray-700">Atención odontológica especializada para niños, desde la
+                                prevención hasta tratamientos dentales.</p>
+                            <a href="https://wa.me/573002916759?text=Hola%2C%20quiero%20agendar%20una%20cita"
+                                target="_blank"
+                                class="mt-3 inline-block bg-[#24546a] text-white px-4 py-2 rounded hover:bg-[#1c3f52] transition">Agendar
+                                Cita</a>
+                        </div>
+                        <div class="bg-[#f1f7f9] p-4 rounded-lg shadow hover:shadow-lg transition">
+                            <img src="images/Diseño-sin-título-92.jpg" alt="Ortodoncia"
+                                class="w-full rounded mb-3">
+                            <h3 class="text-[#24546a] font-semibold">Ortodoncia</h3>
+                            <p class="text-sm text-gray-700">Corrección de malposiciones dentales y problemas de mordida
+                                con brackets y otras técnicas.</p>
+                            <a href="https://wa.me/573002916759?text=Hola%2C%20quiero%20agendar%20una%20cita"
+                                target="_blank"
+                                class="mt-3 inline-block bg-[#24546a] text-white px-4 py-2 rounded hover:bg-[#1c3f52] transition">Agendar
+                                Cita</a>
+                        </div>
+                        <div class="bg-[#f1f7f9] p-4 rounded-lg shadow hover:shadow-lg transition">
+                            <img src="images/Diseño-sin-título-92.jpg" alt="Estética dental"
+                                class="w-full rounded mb-3">
+                            <h3 class="text-[#24546a] font-semibold">Odontología general y estética</h3>
+                            <p class="text-sm text-gray-700">Cuidado integral de la salud bucal con énfasis en estética
+                                dental y rehabilitación oral.</p>
+                            <a href="https://wa.me/573002916759?text=Hola%2C%20quiero%20agendar%20una%20cita"
+                                target="_blank"
+                                class="mt-3 inline-block bg-[#24546a] text-white px-4 py-2 rounded hover:bg-[#1c3f52] transition">Agendar
+                                Cita</a>
+                        </div>
+                        <div class="bg-[#f1f7f9] p-4 rounded-lg shadow hover:shadow-lg transition">
+                            <img src="images/Diseño-sin-título-92.jpg"
+                                alt="Otras especialidades" class="w-full rounded mb-3">
+                            <h3 class="text-[#24546a] font-semibold">Otras especialidades de odontología</h3>
+                            <p class="text-sm text-gray-700">Incluye periodoncia, endodoncia, cirugía oral y
+                                rehabilitación para una atención completa.</p>
+                            <a href="https://wa.me/573002916759?text=Hola%2C%20quiero%20agendar%20una%20cita"
+                                target="_blank"
+                                class="mt-3 inline-block bg-[#24546a] text-white px-4 py-2 rounded hover:bg-[#1c3f52] transition">Agendar
+                                Cita</a>
+                        </div>
+                    </div>
+                </details>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Preguntas Frecuentes -->
+    <section class="py-16 bg-[#f1f7f9]">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-[#24546a] text-center mb-8">Preguntas Frecuentes</h2>
+            <div class="space-y-4">
+                <details class="p-4 bg-white rounded-lg shadow">
+                    <summary class="font-semibold cursor-pointer text-[#24546a]">¿Atienden con cita previa?</summary>
+                    <p class="mt-2 text-gray-700">Sí, todas nuestras consultas son con cita previa. Puedes agendar por
+                        WhatsApp o telefónicamente.</p>
+                </details>
+                <details class="p-4 bg-white rounded-lg shadow">
+                    <summary class="font-semibold cursor-pointer text-[#24546a]">¿Atienden por EPS,Pregapadas y/o
+                        Particulares?</summary>
+                    <p class="mt-2 text-gray-700">Si,Actualmente manejamos convenios con EPS, brindamos servicios por
+                        prepagadas y particulares.</p>
+                </details>
+                <details class="p-4 bg-white rounded-lg shadow">
+                    <summary class="font-semibold cursor-pointer text-[#24546a]">¿Tienen atención para adultos?
+                    </summary>
+                    <p class="mt-2 text-gray-700">Sí, contamos con servicios como neumología de adultos, rehabilitación
+                        vascular, odontología.</p>
+                </details>
+                <details class="p-4 bg-white rounded-lg shadow">
+                    <summary class="font-semibold cursor-pointer text-[#24546a]">¿Dónde están ubicados?</summary>
+                    <p class="mt-2 text-gray-700">Nos encontramos en Sincelejo, Sucre. Puedes contactarnos por WhatsApp
+                        para más detalles.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de contacto / ubicación s-->
+    <section class="bg-[#f1f7f9] py-12 px-6" id="contacto" >
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Columna izquierda: Información de contacto -->
+            <div>
+                <h2 class="text-2xl font-bold text-[#24546a] mb-6" >Información de Contacto</h2>
+                <ul class="space-y-4 text-gray-800">
+                    <li>
+                        <strong>📍 Dirección:</strong><br />
+                        Cra 16 # 26 - 26, Barrio Cruz de Colorado, Sincelejo - Sucre
+                    </li>
+                    <li>
+                        <strong>📧 Correo electrónico:</strong><br />
+                        <a href="mailto:atencionpediatria@gmail.com" class="text-[#24546a] hover:underline">
+                            atencionpediatria@gmail.com
+                        </a>
+                    </li>
+                    <li>
+                        <strong>📞 Números de contacto:</strong><br />
+                        <ul class="list-disc list-inside">
+                            <li>300 291 6759</li>
+                            <li>300 821 6095</li>
+                            <li>300 323 4422</li>
+                            <li>300 821 6623</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>🕒 Horarios de atención:</strong><br />
+                        Lunes a viernes: 8:00 AM - 6:00 PM<br />
+                        Sábados: 8:00 AM - 12:00 PM
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Columna derecha: Redes sociales y mapa embebido -->
+            <div>
+                <h2 class="text-2xl font-bold text-[#24546a] mb-6">Síguenos haciendo click</h2>
+                <div class="space-y-4 text-gray-800">
+                    <p>
+                        <strong>Facebook:</strong>
+                        <a href="https://www.facebook.com/share/1GQiG4qKKg/" target="_blank"
+                            class="text-[#24546a] hover:underline">
+                            Apisincelejoips
+                        </a>
+                    </p>
+                    <p>
+                        <strong>Instagram:</strong>
+                        <a href="https://instagram.com/apisincelejo" target="_blank"
+                            class="text-[#24546a] hover:underline">
+                            @apisincelejo
+                        </a>
+                    </p>
+
+                    <!-- Mapa pequeño embebido -->
+                    <div class="rounded-lg overflow-hidden mt-6 shadow-md">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.741951723313!2d-75.38549382484184!3d9.29539799026425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e5c5d28a631c87f%3A0x1f9a5a4fc1983204!2sCra.%2016%20%2326-26%2C%20Sincelejo%2C%20Sucre!5e0!3m2!1ses!2sco!4v1720378608882!5m2!1ses!2sco"
+                            width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-[#24546a] text-white pt-5 text-center">
+        <div
+            class="max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-4 gap-10 items-start text-left md:text-center">
+            <!-- Logo -->
+            <div class="flex flex-col items-center justify-center gap-2">
+                <img src="images/logo api dorado bajito2.png" alt="Logo API" class="h-12 w-auto">
+                <p class="text-sm">Atención Pediátrica Integral S.A.S</p>
+            </div>
+
+            <!-- Contacto -->
+            <div class="flex flex-col items-center justify-center gap-2">
+                <h3 class="text-lg font-semibold mb-2">Contáctanos</h3>
+                <p class="flex items-center gap-3"><i
+                        class="fas fa-envelope text-lg"></i><span>atencionpediatria@gmail.com</span></p>
+                <p class="flex items-center gap-3"><i class="fas fa-phone text-lg"></i><span>300 291 6759 |
+                        300 821 6095</span></p>
+                <p class="flex items-center gap-3"><i class="fas fa-phone text-lg"></i><span>300 323 4422 |
+                        300 821 6623</span></p>
+            </div>
+
+            <!-- Dirección -->
+            <div class="flex flex-col items-center justify-center gap-2">
+                <h3 class="text-lg font-semibold mb-2">Visítanos</h3>
+                <p class="flex items-center gap-3"><i class="fas fa-map-marker-alt text-lg"></i><span>Cra 16 # 26 -
+                        26</span></p>
+                <p>Barrio Cruz de Colorado</p>
+                <p>Sincelejo - Sucre</p>
+            </div>
+
+            <div class="flex flex-col items-center gap-2">
+                <h3 class="text-lg font-semibold mb-2">Síguenos</h3>
+                <div class="flex items-center gap-3"><a href="https://www.facebook.com/share/1GQiG4qKKg/"
+                        target="_blank" aria-label="Facebook" class="hover:text-yellow-300 transition">
+                        <i class="fab fa-facebook-f fa-2x"></i>
+                    </a>
+                    <a href="https://instagram.com/apisincelejo" target="_blank" aria-label="Instagram"
+                        class="hover:text-yellow-300 transition">
+                        <i class="fab fa-instagram fa-2x"></i>
+                    </a>
+                    <a href="https://wa.me/573002916759" target="_blank" aria-label="WhatsApp"
+                        class="hover:text-yellow-300 transition">
+                        <i class="fab fa-whatsapp fa-2x"></i>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center py-4 text-sm text-white/80 bg-[#24546a] font-bold">
+            © 2025. Todos los derechos reservados. Atención Pediátrica Integral S.A.S
+        </div>
+    </footer>
+
+    <!-- WHATSAPP BUTTON -->
+    <a href="https://wa.me/573002916759"
+        class="fixed bottom-4 right-4 bg-[#24546a] hover:bg-[#1d4456] text-white p-3 rounded-full shadow-lg z-50 transition duration-300"
+        target="_blank" aria-label="Contáctanos por WhatsApp">
+        <i class="h-7 w-8 fab fa-whatsapp fa-2x text-center" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M16.72 12.75c-.28-.14-1.64-.81-1.9-.9-.26-.1-.45-.14-.63.14-.18.28-.72.9-.88 1.09-.16.18-.32.21-.6.07a6.4 6.4 0 01-1.89-1.18 7.15 7.15 0 01-1.33-1.65c-.14-.24 0-.38.1-.52.12-.14.28-.34.42-.51.14-.18.18-.3.28-.48.09-.18.05-.35-.03-.5-.08-.14-.63-1.5-.86-2.07-.22-.56-.45-.49-.63-.5-.18-.01-.39-.01-.6-.01-.2 0-.52.08-.8.4-.28.33-1.05 1.03-1.05 2.5s1.08 2.9 1.23 3.1c.15.19 2.13 3.28 5.18 4.6.72.31 1.28.5 1.72.63.72.23 1.37.2 1.88.12.57-.09 1.64-.67 1.87-1.33.23-.67.23-1.24.16-1.33-.07-.09-.26-.14-.54-.28z" />
+        </i>
+    </a>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
